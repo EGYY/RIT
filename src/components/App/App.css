@@ -1,0 +1,60 @@
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    max-width: 480px;
+
+}
+.top-head {
+    display: flex;
+    width: 100%;
+    background-color: #f24c4c;
+    color: #fff;
+    top: 0;
+    padding: 10px;
+    position: absolute;
+    justify-content: space-between;
+}
+.car-svg {
+    position: relative;
+    min-width: 300px;
+    align-items: center;
+    min-height: 350px;
+    justify-content: center;
+    display: flex;
+    overflow: auto;
+}
+
+.details {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-delete {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#next-btn {
+    min-width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F2C94C;
+    font-weight: 600;
+    transition: 0.2s all ease-in;
+}
+
+#next-btn:hover {
+    background-color: #eac039;
+}
